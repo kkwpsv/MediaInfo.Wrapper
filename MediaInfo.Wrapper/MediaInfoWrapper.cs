@@ -10,6 +10,7 @@ using MediaInfo.Builder;
 using MediaInfo.Model;
 #if NETSTANDARD2_0_OR_GREATER || NET5_0_OR_GREATER
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 #endif
 using System;
 using System.Collections.Generic;
@@ -101,7 +102,7 @@ namespace MediaInfo
     /// <param name="logger">The logger instance.</param>
     protected MediaInfoWrapper(long size, ILogger logger = null)
     {
-      _logger = logger;
+      _logger = logger ?? NullLogger.Instance;
       VideoStreams = new List<VideoStream>();
       AudioStreams = new List<AudioStream>();
       Subtitles = new List<SubtitleStream>();

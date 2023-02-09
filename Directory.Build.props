@@ -2,8 +2,7 @@
 <Project>
 
   <PropertyGroup>
-    <GitHub>1.1.1</GitHub>
-    <CoreNative>21.9.1</CoreNative>
+    <CoreNative>22.12.0</CoreNative>
     <Native>21.9.1</Native>
     <JsonLib>6.0.2</JsonLib>
     <TestSdk>17.2.0</TestSdk>
@@ -17,15 +16,10 @@
     <xUnit>2.4.2</xUnit>
     <Swashbuckle>6.4.0</Swashbuckle>
     <MacrossJson>3.0.0</MacrossJson>
-    <MediaInfoVersion>21.9.1</MediaInfoVersion>
-    <MediaInfoFileVersion>21.9.1.0</MediaInfoFileVersion>
-    <PackageAuthor>yartat</PackageAuthor>
-    <PackageCompany>Yaroslav Tatarenko</PackageCompany>
-    <PackageRepository>https://github.com/yartat/MP-MediaInfo</PackageRepository>
-    <PackageCopyright>Copyright © 2017-2022 Yaroslav Tatarenko</PackageCopyright>
-    <PackageNotes>Copyright © 2017-2022 Yaroslav Tatarenko
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software").</PackageNotes>
+    <MediaInfoVersion>22.12.0</MediaInfoVersion>
+    <MediaInfoFileVersion>22.12.0.0</MediaInfoFileVersion>
+    <PackageAuthor>kkwpsv</PackageAuthor>
+    <PackageRepository>https://github.com/kkwpsv/MediaInfo.Wrapper</PackageRepository>
     <PackageDescription>MediaInfo(Lib) is a convenient unified display of the most relevant technical and tag data for video and audio files.
 MediaInfo .NET wrapper with support network AV streams.</PackageDescription>
     <PackageIconValue>MediaInfo_90x90.png</PackageIconValue>
