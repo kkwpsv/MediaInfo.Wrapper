@@ -11,11 +11,11 @@ using System.Runtime.InteropServices;
 
 namespace MediaInfo
 {
-    internal static class NativeMethods
+    public static class NativeMethods
     {
         #region Native enumerations and structures
 
-        internal enum Generic
+        public enum Generic
         {
             Generic_Format,
             Generic_Format_String,
@@ -153,7 +153,7 @@ namespace MediaInfo
         }
 
         //---------------------------------------------------------------------------
-        internal enum General
+        public enum General
         {
             General_Count,
             General_Status,
@@ -489,7 +489,7 @@ namespace MediaInfo
         }
 
         //---------------------------------------------------------------------------
-        internal enum Video
+        public enum Video
         {
             Video_Count,
             Video_Status,
@@ -875,7 +875,7 @@ namespace MediaInfo
         }
 
         //---------------------------------------------------------------------------
-        internal enum Audio
+        public enum Audio
         {
             Audio_Count,
             Audio_Status,
@@ -1165,7 +1165,7 @@ namespace MediaInfo
         }
 
         //---------------------------------------------------------------------------
-        internal enum Text
+        public enum Text
         {
             Text_Count,
             Text_Status,
@@ -1474,7 +1474,7 @@ namespace MediaInfo
         }
 
         //---------------------------------------------------------------------------
-        internal enum Other
+        public enum Other
         {
             Other_Count,
             Other_Status,
@@ -1670,7 +1670,7 @@ namespace MediaInfo
         }
 
         //---------------------------------------------------------------------------
-        internal enum Image
+        public enum Image
         {
             Image_Count,
             Image_Status,
@@ -1799,7 +1799,7 @@ namespace MediaInfo
         }
 
         //---------------------------------------------------------------------------
-        internal enum Menu
+        public enum Menu
         {
             Menu_Count,
             Menu_Status,
