@@ -1,0 +1,19 @@
+stages:
+  - build
+  - pack
+
+build:
+  stage: build
+  script:
+    - ".\\build.ps1"
+  artifacts:
+    paths:
+      - "MediaInfo.Wrapper\\bin\\Release\\"
+    expire_in: 1h
+
+pack:
+  stage: pack
+  only:
+   - master
+  script:
+    - ".\\pack.ps1"
