@@ -16,9 +16,9 @@
     <xUnit>2.4.2</xUnit>
     <Swashbuckle>6.4.0</Swashbuckle>
     <MacrossJson>3.0.0</MacrossJson>
-    <MediaInfoVersion>22.12.0</MediaInfoVersion>
-    <MediaInfoFileVersion>22.12.0.0</MediaInfoFileVersion>
-    <PackageAuthor>kkwpsv</PackageAuthor>
+    <MediaInfoVersion>22.12.1</MediaInfoVersion>
+    <MediaInfoFileVersion>22.12.1.0</MediaInfoFileVersion>
+    <PackageAuthor>lsj</PackageAuthor>
     <PackageRepository>https://github.com/kkwpsv/MediaInfo.Wrapper</PackageRepository>
     <PackageDescription>MediaInfo(Lib) is a convenient unified display of the most relevant technical and tag data for video and audio files.
 MediaInfo .NET wrapper with support network AV streams.</PackageDescription>
